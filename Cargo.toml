@@ -1,0 +1,8 @@
+[package]
+name = "emoji-segmentation"
+version = "0.1.0"
+authors = ["Colin Rofls <colin@cmyr.net>"]
+
+[dependencies]
+unicode-segmentation = "0.1.2"
+
