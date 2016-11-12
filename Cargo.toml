@@ -2,7 +2,14 @@
 name = "emoji-segmentation"
 version = "0.1.0"
 authors = ["Colin Rofls <colin@cmyr.net>"]
+build = "build.rs"
 
 [dependencies]
 unicode-segmentation = "0.1.2"
 
+[build-dependencies]
+regex = "0.1.77"
+lazy_static = "0.2.1"
+
+[features]
+unicode9 = []

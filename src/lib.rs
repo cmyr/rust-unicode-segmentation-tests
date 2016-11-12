@@ -1,5 +1,6 @@
 extern crate unicode_segmentation;
 
+include!(concat!(env!("OUT_DIR"), "/gen_tests.rs"));
 #[cfg(test)]
 mod tests {
     use unicode_segmentation::UnicodeSegmentation;
